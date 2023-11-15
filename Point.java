@@ -5,17 +5,22 @@ public class Point {
 
     int x, y;
 
-    void initialize(int x, int y){
+    Point(int x, int y) {
         this.x = x;
         this.y = y;
     }
 
-    void displace(int x, int y){
+    void initialiser(int x, int y){
+        this.x = x;
+        this.y = y;
+    }
+
+    void deplacer(int x, int y){
         this.x += x;
         this.y += y;
     }
 
-    void display(){
+    void afficher(){
         System.out.println("je suis un point de coordonées "+this.x+" et "+this.y);
     }
 }
