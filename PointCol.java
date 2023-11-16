@@ -8,9 +8,8 @@ public class PointCol extends Point {
         this.couleur = couleur;
     }
 
-    void afficheCol(){
-        this.afficher();
-        System.out.println("je suis de couleur "+this.couleur);
+    void afficher(){
+        System.out.println("je suis un point de coordonnées "+this.x+" et "+this.y+" et de couleur "+this.couleur);
     }
 
     PointCol(int x, int y, byte couleur){
